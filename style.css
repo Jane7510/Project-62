@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+
+body{
+    text-align: center;
+    overflow: scroll;
+}
+
+#ImgGrid{
+    width: 420px;;
+    border: solid;
+    border-width: 4px;
+    margin-right: 10px;
+    height: 400px;
+}
+
+.flexbox{
+    display: flex;
+    padding: 20px;
+}
+
+#h1{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#AW{
+width: 500px;
+
+}
+h3{
+     font-family: 'Berkshire Swash', cursive;
+}
+.menu {
+    list-style-type:none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+   text-decoration: none;
+    cursor: pointer;
+float: right
+}
+
+.links {
+    float: right;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Redressed', cursive;
+    font-size: 20px;
+    color: deeppink;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: deeppink;
+    text-decoration: none !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.links:hover{
+    background-color: greenyellow;
+    
+
+}
+
+#h{
+    font-family: 'Josefin Slab', serif;
+    color: forestgreen;
+}
